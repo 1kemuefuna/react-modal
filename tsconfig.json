@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": false,
+    "outDir": "./dist",
+    "typeRoots": ["./node_modules/@types", "./index.d.ts"],
+    "baseUrl": "./",
+    "paths": {
+      "react-modal": ["./src/index.tsx"]
+    }
+  },
+  "include": ["src", "index.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}

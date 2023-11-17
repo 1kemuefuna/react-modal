@@ -1,0 +1,39 @@
+{
+  "name": "react-modal",
+  "version": "1.0.1-0",
+  "description": "An intuitive TypeScript React package for modal",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "fetch",
+    "api",
+    "http",
+    "typescript"
+  ],
+  "author": "Michael Ikemuefuna Ukandu <michael@ukandumichael.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup": "^3.25.3",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1kemuefuna/react-modal.git"
+  }
+}
